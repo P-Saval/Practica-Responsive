@@ -1,0 +1,59 @@
+/*La etiqueta header debe estar fija durante la navegación en la parte superior, y mediante un color de fondo hacer que los elementos durante el scroll pasen "por detrás".
+La etiqueta footer debe de estar "pegada" al fondo de la aplicación.
+La etiqueta sidebar debe de estar colocada a la derecha del contenido justo debajo de header.
+El resto de elementos deberán de respetar su colocación tal y como se refleja en la imagen de ejemplo.*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+    color: goldenrod;
+}
+header{
+    height: 50px;
+    width:100%;
+    border-style: dotted;
+    position:fixed;
+    opacity: 0.2;
+    background-color: whitesmoke;
+}
+.content{
+    height: 100px;
+    border-style: dotted;
+    position: relative;
+}
+.sidebar{
+    height: 200px;
+    width: 20%;
+    border-style: dotted;
+    position: relative;
+    padding-left: 30px;
+    margin-left: 80%;
+    
+}
+.features{
+    height: 400px;
+    width: 100%;
+    border-style: dotted;
+    position: relative;
+    padding-left: 40%;
+    padding-top: 1%;
+}
+
+footer{
+    position: sticky;
+    border-style: dotted;
+    height: 50px;
+    padding-left: 45%;
+    padding-top: 1%;;
+
+}
+
+    
